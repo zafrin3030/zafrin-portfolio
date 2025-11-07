@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"/>
+    <script defer src="main.js"></script>
+</head>
+<body>
+    
+
+ <!---Navbar--->
+    <header class="bg-grey">
+        <nav class="navbar">
+            <div class="logo">ZB.</div>
+           <ul class="navlist" id="navlist">
+             <li>
+               <a href="#home" class="navlinks">Home</a>
+             </li>
+             <li>
+               <a href="#skills" class="navlinks">Skills</a>
+             </li>
+             <li>
+               <a href="#about" class="navlinks">Myintro</a>
+             </li>
+              <li>
+                 <a href="#project" class="navlinks">Project</a>
+              </li>
+             <li>
+               <a href="#testimonial" class="navlinks">Testimonial</a>
+              </li>
+             </ul>
+              <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+       <main>
+          <!---Hero Section--->
+          <section id="home" class="hero-section bg-grey">
+            <div class="container">
+                <div class="row-container">
+                    <div class="content">
+                        <h3>Hello!</h3>
+                        <h1>I'am Zafrin Akther Binty</h1>
+                        <h2>Aspiring Web Developer.</h2>
+                        <P>Exploring the world of coding and creativity. Currently learning HTML & CSS to build beautiful websites. I love solving problems, designing layouts, and sharing my learning journey with others.</P>
+                        <div class="actions">
+                            <a href="assets/MY CV.pdf"class ="primary-btn" download>Download CV</a>
+                            <a href="#contact"class ="primary-btn" data-type="inverted-btn">Contact Me</a>
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <img src="assets/profile.jpg" alt="profile">
+
+                    </div>
+                </div>
+            </div>
+          </section>
+
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-light-pink">
+            <div class="container">
+            <div class="column-container">
+             <div class="content">
+               <h3>Why Choose Me</h3>
+               <h1>My Skills</h1>
+             </div>
+
+             <!-- Technical Skills -->
+               <div class="skills-container">
+               <h3 class="skills-heading">Technical Skills</h3>
+               <div class="skills-grid">
+               <div class="skill">
+               <label>HTML</label>
+               <div class="progress-bar"><div style="width: 70%;">70%</div></div>
+               </div>
+               <div class="skill">
+               <label>CSS</label>
+               <div class="progress-bar"><div style="width: 50%;">50%</div></div>
+               </div>
+               <div class="skill">
+               <label>JavaScript</label>
+               <div class="progress-bar"><div style="width: 45%;">45%</div></div>
+               </div>
+              <div class="skill">
+              <label>Java</label>
+              <div class="progress-bar"><div style="width: 75%;">75%</div></div>
+              </div>
+             <div class="skill">
+             <label>C/C++</label>
+             <div class="progress-bar"><div style="width: 76%;">76%</div></div>
+             </div>
+             <div class="skill">
+             <label>Assembly</label>
+            <div class="progress-bar"><div style="width: 55%;">55%</div></div>
+            </div>
+            <div class="skill">
+            <label>Figma</label>
+            <div class="progress-bar"><div style="width: 85%;">85%</div></div>
+            </div>
+            <div class="skill">
+            <label>Canva</label>
+            <div class="progress-bar"><div style="width: 90%;">90%</div></div>
+            </div>
+            <div class="skill">
+             <label>MySQL</label>
+             <div class="progress-bar"><div style="width: 80%;">80%</div></div>
+            </div>
+           <div class="skill">
+            <label>JavaFX</label>
+            <div class="progress-bar"><div style="width: 90%;">90%</div></div>
+           </div>
+           <div class="skill">
+            <label>UI/UX Design</label>
+            <div class="progress-bar"><div style="width: 65%;">65%</div></div>
+            </div>
+           </div>
+          </div>
+
+           <!-- Soft Skills -->
+             <div class="skills-container">
+               <h3 class="skills-heading">Soft Skills</h3>
+               <div class="soft-skills-grid">
+                <span class="chip">Communication</span>
+                <span class="chip">Presentation Skills</span>
+                <span class="chip">Teamwork</span>
+                <span class="chip">Leadership</span>
+                <span class="chip">Adaptability</span>
+                <span class="chip">Positive Attitude</span>
+                <span class="chip">Patience</span>
+                <span class="chip">Stress Management</span>
+                <span class="chip">Continuous Learning</span>
+             </div>
+           </div>
+           </div>
+          </div>
+       </section>
+          
+           <!---About Me--->
+          <section id="about" class="section bg-white">
+            <div class="container">
+                <div class="row-container">
+                    <div class="image-container">
+                        <img src="assets/profile.jpg" alt="profile">
+                    </div>
+                    <div class="content">
+                        <h3>My Intro</h3>
+                        <h1>About Me</h1>
+                        <p>I am Zafrin Akther Binty, a student exploring the world of web development. I enjoy learning HTML & CSS, designing layouts, and expressing creativity through code. My goal is to build beautiful websites and share my learning journey with others.</p>
+                    <ul class="information">
+                        <li  class="detail">
+                            <i class="fa-solid fa-user fill-pink"></i> Name: Zafrin Akther Binty
+                        </li>
+                        <li  class="detail">
+                            <i class="fa-solid fa-phone fill-pink"></i> Phone: 01706209955
+                        </li>
+                        <li  class="detail">
+                            <i class="fa-solid fa-envelope fill-pink"></i>  Email: zafrinbinty152930@gmail.com
+                        </li>
+                    </ul>
+                    <h4>My Interest</h4>
+                    <ul class="interest">
+                        <li>
+                            <i class="fa-solid fa-music fill-pink"></i>Music
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-map fill-pink"></i>Travel
+                        </li>
+                        <li>
+                            <i class="fa-solid fa-book-open fill-pink"></i>Reading
+                        </li>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+          </section>
+          
+          
+          <!-- Projects Section -->
+          <section id="project" class="section bg-light-pink">
+             <div class="container">
+             <div class="column-container">
+              <div class="content">
+                  <h3>What I've Built</h3>
+                    <h1>My Projects</h1>
+             </div>
+
+              <div class="projects-wrapper">
+              <div class="project-card">
+              <i class="fa-solid fa-utensils"></i>
+             <h4>Restaurant Management</h4>
+             <p>JavaFX + MySQL based desktop system for managing customer lists, food orders, item updates, revenue tracking, and reviews.</p>
+             </div>
+             <div class="project-card">
+             <i class="fa-solid fa-mobile-screen-button"></i>
+             <h4>Cookify App</h4>
+             <p>Android recipe app built with XML, Java & Firebase. Suggests recipes based on pantry items and offers ingredient substitutes.</p>
+             </div>
+             <div class="project-card">
+            <i class="fa-solid fa-compass"></i>
+            <h4>Career Compass</h4>
+            <p>React + Firebase powered website that analyzes your skills and suggests career paths and job opportunities accordingly.</p>
+          </div>
+        </div>
+       </div>
+      </div>
+     </section>
+
+            <!---Testimonial-->
+             <section id="testimonial" class="section bg-grey">
+                <div class="container">
+                  <div class="column-container">
+                    <div class="content">
+                    <h3>Testimonial</h3>
+                    <h1>MY Teammate Saying</h1>
+                  </div>
+                   <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="profile-container">
+                        <img src="assets/C1.jpeg" alt="">
+                    </div>
+                    <h4>Fahima Haque</h4>
+                    <p class="para">"Zafrin is an amazing teammate. she always brings energy and creative ideas to every project we work on together."</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="profile-container">
+                         <img src="assets/C3.jpeg" alt="">
+                    </div>
+                    <h4>Sabikun Nahar</h4>
+                    <p class="para">"Zafrin is supportive and reliable. She has a knack for solving problems and makes collaboration easy and fun."</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="profile-container">
+                        <img src="assets/C2.jpeg" alt="">
+                    </div>
+                    <h4>MD Rabby</h4>
+                    <p class="para">"Working alongside Zafrin has been inspiring. she is proactive, thoughtful, and always willing to help the team."</p>
+                </div>
+                <div class="swiper-slide">
+                    <div class="profile-container">
+                         <img src="assets/Z.jpeg" alt="">
+                    </div>
+                    <h4>Muhammad Zayn Abdullah</h4>
+                    <p class="para">"I admire Zafrin’s dedication and positive attitude. She consistently contributes valuable ideas and motivates everyone around her."</p>
+                </div>
+            </div>
+              <div class="swiper-button-next"></div>
+              <div class="swiper-button-prev"></div>
+             <div class="swiper-pagination"></div>
+                </div>
+                </div>
+                </div>
+             </section>
+
+              <!---ContactUs Section-->
+            <section id="contact" class="section bg-white">
+                <div class="container">
+                    <div class="column-container">
+                        <div class="content">
+                            <h3>Contact Us</h3>
+                            <h1>Get In Touch</h1>
+                        </div>
+                        <form action="https://api.web3forms.com/submit" method="POST" class="form">
+                             <input type="hidden" name="access_key" value="2f0d4c9d-e940-4c4f-acad-0bc15917419f">
+                            <input type="text" name ="name" placeholder="Username" required>
+                            <input type="email" name="email" placeholder="Email Address" required>
+                            <textarea name="message" placeholder="Type your message here" rows="6" required></textarea>
+                            <input type="submit" value="Send Message" class="primary-btn">
+                        </form>
+                    </div>
+                </div>
+
+            </section>
+       </main>
+
+
+       <!---Footer Section-->
+       <footer class="footer-section bg-black">
+        <div class="container">
+            <p class="para fill-white">Copyright &copy;2025 All rights reserved by Binty</p>
+            <div class="row-container">
+                <div class="icons">
+                    <a href="https://www.facebook.com/share/1MCcmRpYnY/" target="_blank">
+                         <i class="fa-brands fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/zafrin-binty-048aa5394/" target="_blank">
+                         <i class="fa-brands fa-linkedin-in"></i> 
+                    </a>
+                    <a href="https://www.instagram.com/zafrinbinty__?utm_source=qr&igsh=aXlibDk4b3p6Ymp4" target="_blank">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/zafrin3030" target="_blank">
+                         <i class="fa-brands fa-github"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+       </footer>
+     <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+   
+</body>
+</html>
